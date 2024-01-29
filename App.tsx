@@ -65,8 +65,31 @@ function App() {
         />
         <Stack.Screen name="Details" component={DetailsScreen} />
       </Stack.Navigator>
+      {/* <View style={styles.backdrop}>
+        <View style={styles.modal}>
+          <Text>Hello</Text>
+        </View>
+      </View> */}
     </NavigationContainer>
   );
 }
+
+// const styles = StyleSheet.create({
+//   backdrop: {
+//     backgroundColor: 'rgba(0, 0, 0, 0.5)',
+//     ...StyleSheet.absoluteFillObject,
+//   },
+//   modal: {
+//     position: 'absolute',
+//     top: 200,
+//     bottom: 200,
+//     right: 20,
+//     left: 20,
+//     paddingHorizontal: 30,
+//     paddingVertical: 30,
+//     borderRadius: 8,
+//     backgroundColor: 'white',
+//   },
+// });
 
 export default App;
